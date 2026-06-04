@@ -1,4 +1,14 @@
-# Open Click to Do
+﻿# Open Click to Do
+
+<!-- ARTEMIS-IGNIS-BRANDING:START -->
+<p align="center">
+  <img src="docs/assets/artemis-ignis-banner.png" alt="Artemis-Ignis banner" width="100%" />
+</p>
+
+<p align="center">
+  <img src="docs/assets/artemis-ignis-emblem.png" alt="Artemis-Ignis emblem" width="320" />
+</p>
+<!-- ARTEMIS-IGNIS-BRANDING:END -->
 
 **Win+Q screen OCR, copy, and instant translation for every Windows PC.**
 
@@ -170,3 +180,4 @@ See [docs/troubleshooting.md](docs/troubleshooting.md) for checks covering AutoH
 ## License
 
 MIT
+
