@@ -1,0 +1,17 @@
+bin/
+obj/
+artifacts/
+.vs/
+.vscode/
+*.user
+*.suo
+*.log
+*.tmp
+*.cache
+TestResults/
+coverage/
+
+# Local runtime settings and logs
+OpenClickToDo/settings.json
+OpenClickToDo/logs/
+

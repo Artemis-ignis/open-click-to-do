@@ -1,0 +1,99 @@
+<Window x:Class="OpenClickToDo.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Open Click to Do"
+        Height="520"
+        Width="760"
+        MinHeight="480"
+        MinWidth="640"
+        WindowStartupLocation="CenterScreen">
+    <Grid Background="#F8FAFC">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+
+        <StackPanel Margin="32,28,32,18">
+            <TextBlock Text="Open Click to Do"
+                       FontSize="30"
+                       FontWeight="SemiBold"
+                       Foreground="#0F172A" />
+            <TextBlock Text="Win+Q screen OCR, copy, and instant translation for every Windows PC."
+                       Margin="0,8,0,0"
+                       FontSize="15"
+                       Foreground="#475569" />
+            <TextBlock Text="This is not Microsoft Click to Do. It is an open-source Click to Do-style screen OCR and action overlay for Windows."
+                       Margin="0,16,0,0"
+                       FontSize="13"
+                       TextWrapping="Wrap"
+                       Foreground="#64748B" />
+        </StackPanel>
+
+        <Border Grid.Row="1"
+                Margin="32,0,32,20"
+                Padding="24"
+                Background="White"
+                BorderBrush="#E2E8F0"
+                BorderThickness="1"
+                CornerRadius="8">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="*" />
+                </Grid.RowDefinitions>
+
+                <TextBlock Text="Ready for Win+Q OCR actions"
+                           FontSize="18"
+                           FontWeight="SemiBold"
+                           Foreground="#0F172A" />
+                <TextBlock Grid.Row="1"
+                           Margin="0,10,0,0"
+                           Text="Install the AutoHotkey script to bind Win+Q, or use Capture Now to test the overlay immediately."
+                           TextWrapping="Wrap"
+                           Foreground="#475569" />
+
+                <UniformGrid Grid.Row="2"
+                             Margin="0,24,0,0"
+                             Columns="3">
+                    <Button Content="Capture Now"
+                            Margin="0,0,8,0"
+                            Padding="18,12"
+                            Click="CaptureNow_Click" />
+                    <Button Content="Open Settings"
+                            Margin="4,0,4,0"
+                            Padding="18,12"
+                            Click="OpenSettings_Click" />
+                    <Button Content="Open Logs"
+                            Margin="8,0,0,0"
+                            Padding="18,12"
+                            Click="OpenLogs_Click" />
+                </UniformGrid>
+
+                <StackPanel Grid.Row="3" Margin="0,28,0,0">
+                    <TextBlock Text="MVP actions"
+                               FontWeight="SemiBold"
+                               Foreground="#0F172A" />
+                    <TextBlock Margin="0,8,0,0"
+                               Text="Copy selected OCR text, open browser translation, or search the web. Esc closes the overlay; Ctrl+C copies the selected block."
+                               TextWrapping="Wrap"
+                               Foreground="#475569" />
+                    <TextBlock x:Name="StatusText"
+                               Margin="0,18,0,0"
+                               Text="Settings are stored under %APPDATA%\OpenClickToDo."
+                               TextWrapping="Wrap"
+                               Foreground="#64748B" />
+                </StackPanel>
+            </Grid>
+        </Border>
+
+        <TextBlock Grid.Row="2"
+                   Margin="32,0,32,24"
+                   Text="Open Click to Do does not patch or enable Microsoft Click to Do, Copilot, WSAIFabricSvc, WorkloadsSessionHost, or WindowsWorkload packages."
+                   TextWrapping="Wrap"
+                   Foreground="#64748B" />
+    </Grid>
+</Window>
+
