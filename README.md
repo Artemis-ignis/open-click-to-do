@@ -1,14 +1,20 @@
-﻿# Open Click to Do
-
-<!-- ARTEMIS-IGNIS-BRANDING:START -->
+﻿<!-- ARTEMIS-IGNIS-TOP:START -->
 <p align="center">
-  <img src="docs/assets/artemis-ignis-banner.png" alt="Artemis-Ignis banner" width="100%" />
+  <img src="docs/assets/artemis-ignis-emblem-top.jpg" alt="Artemis-Ignis emblem" width="420" />
 </p>
+<!-- ARTEMIS-IGNIS-TOP:END -->
 
+<!-- ARTEMIS-IGNIS-BADGE-BAR:START -->
 <p align="center">
-  <img src="docs/assets/artemis-ignis-emblem.png" alt="Artemis-Ignis emblem" width="320" />
+  <img alt="License" src="https://img.shields.io/github/license/=for-the-badge&label=License&color=111111" />
+  <img alt="Last commit" src="https://img.shields.io/github/last-commit/=for-the-badge&label=Last%20Commit&color=111111" />
+  <img alt="Stars" src="https://img.shields.io/github/stars/=for-the-badge&label=Stars&color=111111" />
+  <img alt="Forks" src="https://img.shields.io/github/forks/=for-the-badge&label=Forks&color=111111" />
 </p>
-<!-- ARTEMIS-IGNIS-BRANDING:END -->
+<!-- ARTEMIS-IGNIS-BADGE-BAR:END -->
+<p align="center"><a href="README.ko.md">한국어</a></p>
+
+# Open Click to Do
 
 **Win+Q screen OCR, copy, and instant translation for every Windows PC.**
 
@@ -180,4 +186,10 @@ See [docs/troubleshooting.md](docs/troubleshooting.md) for checks covering AutoH
 ## License
 
 MIT
+
+<!-- ARTEMIS-IGNIS-BADGES:START -->
+<p align="center">
+  <img src="docs/assets/artemis-ignis-badges-footer.jpg" alt="Artemis-Ignis platform and license badges" width="520" />
+</p>
+<!-- ARTEMIS-IGNIS-BADGES:END -->
 
